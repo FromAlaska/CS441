@@ -1,7 +1,7 @@
 // Jim Samson
 // 04 April 2019
 // Cuda Minimum Finding
-// Homework Part 3
+// Homework Part 2
 // 
 
 #include <stdio.h>

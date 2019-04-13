@@ -1,5 +1,7 @@
 // Jim Samson
+// 04 April 2019
 // MPI MinimumFinding
+// Homework Part 1
 
 /*
 Write array_val C/C++program that uses MPI(not CUDA) with 8 processes.
