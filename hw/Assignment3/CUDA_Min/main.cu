@@ -7,8 +7,8 @@
 #include <stdio.h>
 #include <limits.h>
 
-const int HIGHEST_VALUE 8000000
-const int THREADS 8
+#define HIGHEST_VALUE 8000000
+#define THREADS 8
 
 __global__ void findLowest(int numMin, int *array_val, int *cudaResult ) {
     int low = threadIdx.x * numMin;
