@@ -19,6 +19,9 @@ test to make sure the right value was returned from the other processors.
 #include <string.h>
 #include <limits.h>
 
+
+int lowestNumber(int array_val[], int low ,int high);
+
 #define N 8000000
 
 
