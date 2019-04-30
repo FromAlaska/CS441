@@ -124,9 +124,9 @@
      FreeImage_Save(FIF_PNG, bitmap, "coins-edge.png", 0);
    
      free(pixels);
-     free(hostReturnPixels);
+     free(hostReturn);
      cudaFree(devicePixels);
-     cudaFree(deviceReturnPixels);
+     cudaFree(devGPUPixels);
      FreeImage_Unload(bitmap);
      FreeImage_Unload(image);
      return 0;
