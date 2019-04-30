@@ -121,7 +121,7 @@
          FreeImage_SetPixelColor(bitmap, i, j, &aPixel);
        }
      }
-     FreeImage_Save(FIF_PNG, bitmap, "coins-edge.png", 0);
+     FreeImage_Save(FIF_PNG, bitmap, "coins-edg.png", 0);
    
      free(pixels);
      free(hostReturn);
