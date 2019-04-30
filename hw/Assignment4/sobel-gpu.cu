@@ -23,7 +23,7 @@
  #include "math.h"
  
  
- #define threadsPerBlock 32
+ #define threadsPerBlock 22
  // Returns the index into the 1d pixel array
  // Given te desired x,y, and image width
  __device__ int pixelIndex(int x, int y, int width)
